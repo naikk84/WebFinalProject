@@ -1,0 +1,570 @@
+﻿body {
+    background-color: white;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: Comic Sans MS;
+}
+h2 {
+    color: white;
+    font-family: Comic Sans MS;
+    text-align: center;
+    
+    
+}
+h3 {
+    color: white;
+    font-family: Comic Sans MS;
+    text-align: center;
+    margin-bottom:1px;
+    
+}
+#headerimage{
+    float:left;
+}
+nav {
+    text-align: left;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow:0 0 8px 0 black;
+    margin-bottom:3px;
+    
+    height: 100%;
+}
+    nav a {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        
+        font-size: 1.2em;
+        height: 100%;
+        margin-left: 30px;
+    }
+        nav a:hover {
+            box-shadow: 0 0 8px 0 black, 0 0 6px 0 black;
+            color: white;
+            background-color:black;
+        }
+       
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+footer {
+    width: 100%;
+    background-color: dimgrey;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+    .footer p {
+        float: left;
+        
+    }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    
+    
+}
+
+   
+    .fa:hover {
+        opacity: 1.1;
+    }
+
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    
+}
+#loginfooter{
+    margin-top: 200px;
+
+}
+#signupfooter{
+    margin-top: 90px;
+}
+#orderfooter{
+    margin-top: 122px;
+}
+#Cartfooter{
+    margin-top:220px;
+}
+#checkoutfooter{
+    margin-top:140px;
+}
+.Map {
+    width: 100%;
+    /* for chrome and safari*/
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+    /*for firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    /* for opera*/
+    -o-animation-duration: 3s;
+    -o-animation-name: slidein;
+    /* Standard syntax*/
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+
+
+@-webkit-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 1%;
+        width: 100%;
+    }
+}
+
+@-moz-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 1%;
+        width: 100%;
+    }
+}
+
+@-o-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 1%;
+        width: 100%;
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 1%;
+        width: 100%;
+    }
+}
+.contact {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    
+    /* for chrome and safari*/
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slidein;
+    /*for firefox*/
+    -moz-animation-duration: 1s;
+    -moz-animation-name: slidein;
+    /* for opera*/
+    -o-animation-duration: 1s;
+    -o-animation-name: slidein;
+    /* Standard syntax*/
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.contactDetails {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    /* for chrome and safari*/
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+    /*for firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    /* for opera*/
+    -o-animation-duration: 3s;
+    -o-animation-name: slidein;
+    /* Standard syntax*/
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.Content {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+
+
+
+.creator1 {
+    float: left;
+    width: auto;
+    
+    text-align:center;
+    position:relative;
+    /* for chrome and safari*/
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+    /*for firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    /* for opera*/
+    -o-animation-duration: 3s;
+    -o-animation-name: slidein;
+    /* Standard syntax*/
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.creator2 {
+    width: auto;
+    text-align: center;
+    position: relative;
+    /* for chrome and safari*/
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+    /*for firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    /* for opera*/
+    -o-animation-duration: 3s;
+    -o-animation-name: slidein;
+    /* Standard syntax*/
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.creator {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    /* for chrome and safari*/
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+    /*for firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    /* for opera*/
+    -o-animation-duration: 3s;
+    -o-animation-name: slidein;
+    /* Standard syntax*/
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+
+.table {
+    text-align: center;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+    /*for firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    /* for opera*/
+    -o-animation-duration: 3s;
+    -o-animation-name: slidein;
+    /* Standard syntax*/
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+    .table td:hover {
+        box-shadow: 0 0 8px 0 black, 0 0 6px 0 black;
+    }
+
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slidein;
+    /*for firefox*/
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    /* for opera*/
+    -o-animation-duration: 3s;
+    -o-animation-name: slidein;
+    /* Standard syntax*/
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    background-color:white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(256,256,256,0.6);
+    }
+/* Caption text */
+.text {
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color:white;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+section {
+    width: 90%;
+    background-color: lightgray;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: #1e9aff;
+    border-style: hidden;
+    border-width: 5px;
+    padding: 3px;
+    font-family: Comic Sans MS;
+    box-shadow: 3px 3px 3px 3px black;
+}
+#login {
+        width: 40%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 140px;
+    }
+#signup {
+    width: 45%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+#order {
+    width:75%;
+    height:auto;
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    
+}
+.spectrum {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+.ourstory {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+.Manufacturer {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+.Likenoother {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+#logintable{
+    text-align:center;
+}
+#logintable td:hover{
+    box-shadow:none;
+}
+
+@-webkit-keyframes top {
+    from {
+        margin-top: 100%;
+        
+    }
+
+    to {
+        margin-top: 1%;
+        
+    }
+}
+
+@-moz-keyframes top {
+    from {
+        margin-top: 100%;
+       
+    }
+
+    to {
+        margin-top: 1%;
+        
+    }
+}
+
+@-o-keyframes top {
+    from {
+        margin-top: 100%;
+        
+    }
+
+    to {
+        margin-top: 1%;
+        
+    }
+}
+
+@keyframes top {
+    from {
+        margin-top: 100%;
+        
+    }
+
+    to {
+        margin-top: 1%;
+        
+    }
+}
+
+#imagecontainer {
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-name: top;
+    /*for firefox*/
+    -moz-animation-duration: 1.5s;
+    -moz-animation-name: top;
+    /* for opera*/
+    -o-animation-duration: 1.5s;
+    -o-animation-name: top;
+    /* Standard syntax*/
+    animation-duration: 1.5s;
+    animation-name: top;
+}
+#orderimage {
+    float: right;
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+#orderdetails {
+    width: 60%;
+    display: inline-block;
+}
+   
